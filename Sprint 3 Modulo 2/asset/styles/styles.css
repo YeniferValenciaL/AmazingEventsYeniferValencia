@@ -167,28 +167,28 @@ footer img{
     margin: 20px 30px;
     transition: .2s;
 }
-.checkbox{
+#checkbox{
     background: #F1C93B;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
-.checkbox label{
+#checkbox label{
     display: flex;
     font-size: 12pt;
 }
-.buscador{
+#contenedorBusqueda{
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-.buscador input{
+#contenedorBusqueda input{
     display: flex;
     padding: 10px;
     outline: none;
     width: 150px;
     height: 40px;
 }
-.buscador button{
+#contenedorBusqueda button{
     display: flex;
     width: 30px;
     height: 30px;

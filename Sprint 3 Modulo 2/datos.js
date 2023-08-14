@@ -201,3 +201,7 @@ console.log(data.events);
 for (let i = 0; i < data.events.length; i++) {
  console.log(data.events[i]);
 }
+
+for (let eventos of events){
+  recorrerEvents(eventos);
+}
